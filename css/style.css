@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;500;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(0deg, #1E1E1E, #1E1E1E);
+}
+
+/*Nav*/
+
+.navbar .container {
+    height: auto;
+}
+
+.navbar .navbar-toggler {
+    border: 2px solid #FF0000;
+}
+
+.navbar .container .logo a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF0000;
+}
+
+.collapse .navbar-nav .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item .nav-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nav-item .nav-link:hover {
+    color: #FF0000;
+    transition: 1s;
+}
+
+/*main*/
+
+main .container {
+    height: auto;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .container .row .left .title-favoritos h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+main .container .row .left .card-container {
+    width: 100%;
+    height: 180px;
+}
+
+.card-container .card {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 90px #000000;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+.info {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.play {
+    display: flex;
+    justify-content: end;
+    margin-top: 140px;
+    margin-right: 40px;
+}
+
+.card h4 {
+    color: #FF0000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.card p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.card .fa-circle-play {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.fa-circle-play:hover {
+    color: #FF0000;
+    transition: 1s;
+}
