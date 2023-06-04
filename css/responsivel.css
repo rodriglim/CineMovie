@@ -46,15 +46,23 @@
         overflow: hidden;
         
     }
+
+    
+    .button-div{
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+
     .button-div button{
         display: none;
     }
 
     #play-small{
         display: block;
+    
     }
     
-    .card .card-body {
+    .card .card-body{
         text-align: center;
     }
 

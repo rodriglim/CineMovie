@@ -212,18 +212,20 @@ main .container .row .left .card-container {
     margin-top: 90px;
 }
 
-.continue-watching {
+.continue-watching, .action-title{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    align-self: center;
     height: auto;
 }
 
-.continue-watching h3 {
+.continue-watching h3, .action-title > h3{
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 30px;
+    margin-left: 15px;
     color: #FFFFFF;
 }
  
@@ -300,7 +302,7 @@ main .container .row .left .card-container {
     display: none;
 }
 
-#button-carousel-left{
+.carousel-control-prev{
     width: 20px;
     margin-left: 10px;
 }
@@ -309,7 +311,7 @@ main .container .row .left .card-container {
     color: #FFF;
 }
 
-#button-carousel-right{
+.carousel-control-next{
     width: 20px;
     margin-right: 15px;
 }
@@ -319,4 +321,12 @@ main .container .row .left .card-container {
     width: 100%;
     height: 44px;
     background: rgba(30, 30, 30, 0.6);
+}
+
+.button{
+    margin-top: 100px;
+}
+
+#carousel{
+    width: 20px;
 }
