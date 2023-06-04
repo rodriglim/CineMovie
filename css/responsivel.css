@@ -1,7 +1,57 @@
+@media only screen and (max-width:991px){
+    
+    .card .card-body {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-top: 20px;
+        color: #FFF;
+    }
+    
+    .button-div {
+        margin: 0 auto;
+        margin-top: 100px;
+     
+    }
+    
+}
+
 @media only screen and (max-width: 766px){
     main .container .row .left .card-container {
         width: 100%;
         height: 180px;
+    }
+    
+}
+
+@media only screen and (max-width: 475px){
+    .announcement .card {
+        align-items: center;
+    }
+
+    .football-title {
+        justify-content: center;
+        align-items: center;
+        margin-top: -110px;
+        flex-flow: column nowrap;
+        margin-right: 0%;
+    }
+
+    .football-title h3 {
+        font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+        
+    }
+    .button-div button{
+        display: none;
+    }
+
+    #play-small{
+        display: block;
     }
     
 }
