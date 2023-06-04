@@ -286,7 +286,7 @@ main .container .row .left .card-container {
     color: #000000;
 }
 
-.button-div button:hover {
+.button-div #button:hover {
     background-color: #FF0000;
     color: #FFF;
 }
