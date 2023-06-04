@@ -92,15 +92,17 @@ main .container .row .left .card-container {
     display: flex;
     justify-content: flex-end;
     margin-left: 20px;
-    margin-top: 120px;
+    margin-top: 140px;
     flex-direction: column;
 }
 
 
 .play {
+    position: absolute;
     display: flex;
-    justify-content: end;
-    margin-top: 135px;
+    justify-content: center;
+    align-self: flex-end;
+    margin-top: 154px;
     margin-right: 40px;
 }
 
@@ -234,13 +236,14 @@ main .container .row .left .card-container {
 }
 
 .card-group .card {
+    border: none;
     position: relative;
     margin: 0 10px;
     width: 100%;
     height: 180px;
     border: none;
     border-radius: 30px;
-    box-shadow: inset 0px 0px 90px #000000;
+    box-shadow: inset 0px 50px 100px #000000;
     overflow: hidden;
 }
 
@@ -248,7 +251,7 @@ main .container .row .left .card-container {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 125px;
     color: #FFF;
 }
 
@@ -264,12 +267,14 @@ main .container .row .left .card-container {
 .button-div {
     display: flex;
     align-self: flex-end;
-    margin-right: 20px;
-    margin-top: 120px;
+    margin-right: 28px;
+    margin-top: 135px;
 }
 
 
 .button-div button {
+    width: 140px;
+    height: 30px;
     cursor: pointer;
     border: none;
     background: #FFFFFF;
@@ -293,4 +298,25 @@ main .container .row .left .card-container {
 
 #play-small {
     display: none;
+}
+
+#button-carousel-left{
+    width: 20px;
+    margin-left: 10px;
+}
+
+#button-carousel-left .fa-chevron-left:hover, #button-carousel-right .fa-chevron-right:hover{
+    color: #FFF;
+}
+
+#button-carousel-right{
+    width: 20px;
+    margin-right: 15px;
+}
+
+.escuro{
+    margin-top: 140px;
+    width: 100%;
+    height: 44px;
+    background: rgba(30, 30, 30, 0.6);
 }
